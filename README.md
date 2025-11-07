@@ -1,6 +1,6 @@
 # AWS CloudWatch Alarms Terraform Module
 
-A flexible, **integrated** Terraform module for creating AWS CloudWatch alarms with optional CloudWatch Logs metric filters and encrypted SNS notifications. Everything is configured as one cohesive unit.
+A flexible, **integrated** Terraform module for creating AWS CloudWatch alarms with optional CloudWatch Logs metric filters and encrypted SNS notifications. Everything is configured as one cohesive module.
 
 [![Terraform](https://img.shields.io/badge/terraform-%3E%3D1.0-blue.svg)](https://www.terraform.io/)
 [![AWS Provider](https://img.shields.io/badge/aws-%3E%3D6.0-orange.svg)](https://registry.terraform.io/providers/hashicorp/aws/latest)
@@ -581,27 +581,7 @@ aws logs describe-log-groups --query 'logGroups[*].logGroupName'
 
 ## Additional Resources
 
-- [Deployment Guide](./DEPLOYMENT.md) - Step-by-step deployment instructions
 - [Examples](./examples/) - Complete working examples
-- [Additional Security Rules](./ADDITIONAL-SECURITY-RULES.md) - 10 more security monitoring recommendations
 - [AWS CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/)
 - [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)
 
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with tests and documentation
-
-## License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
-## Authors
-
-Created with Claude Code
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
